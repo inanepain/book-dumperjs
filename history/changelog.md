@@ -14,7 +14,7 @@ description: Dumper's history
 ### 2.4.2 (2022 Feb 16)
 
 * assert now returns boolean - if the assert run or not.
-* code: cleaned up "mucho mass" redundent code.
+* code: cleaned up "mucho mass" redundant code.
 
 ### 2.3.0 (2021 Sep 30)
 

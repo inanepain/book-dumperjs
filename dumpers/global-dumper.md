@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-This is also refered to as the Global Dumper since it sits in the Global Scope.
+This is also referred to as the Global Dumper since it sits in the Global Scope.
 
 ## Usage
 

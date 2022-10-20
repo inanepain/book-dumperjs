@@ -30,7 +30,7 @@
 ## 📚 Examples
 
 * [Scenarios](examples/scenarios.md)
-* [Basic](examples/basic.md)
+* [Basic](examples/basic.adoc)
 * [Advanced](examples/advanced/README.md)
   * [Database Logging](examples/advanced/database-logging.md)
 

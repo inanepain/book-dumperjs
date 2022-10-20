@@ -14,7 +14,7 @@ description: Changing dumper options
 Since [v2.3.0](../../history/changelog.md#2-3-0-2021-sep-30)
 {% endhint %}
 
-Dumpers bubble level changes keeping their children's level the same as their own. Bubbling has two options with which you stop the propagation down a branch or just have it skip specific Dumpers leaving their level uneffected yet still changing it's children.
+Dumpers bubble level changes keeping their children's level the same as their own. Bubbling has two options with which you stop the propagation down a branch or just have it skip specific Dumpers leaving their level unaffected yet still changing it's children.
 
 ### optionBubbleFromParent
 

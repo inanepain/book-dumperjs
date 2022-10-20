@@ -10,7 +10,7 @@ You can instantiate two types of Dumper instances that differ in their relation 
 
 ### Single Dumper
 
-A stand alone dumper created using the **`new`** keyword that is uneffected by scope and Global changes to LogLevels.
+A stand alone dumper created using the **`new`** keyword that is unaffected by scope and Global changes to LogLevels.
 
 {% content-ref url="single-dumper.md" %}
 [single-dumper.md](single-dumper.md)
@@ -18,7 +18,7 @@ A stand alone dumper created using the **`new`** keyword that is uneffected by s
 
 ### Linked Dumper
 
-A dumper linked to the Linked dumper that created it or the Global Dumper if created by a Single dumper. These dumpers are created using the **`get`** method on a dumper and suplying a **name**.
+A dumper linked to the Linked dumper that created it or the Global Dumper if created by a Single dumper. These dumpers are created using the **`get`** method on a dumper and supplying a **name**.
 
 {% content-ref url="linked-dumper.md" %}
 [linked-dumper.md](linked-dumper.md)
@@ -31,4 +31,3 @@ The new Dumper is a child of the original Dumper.
 {% content-ref url="children.md" %}
 [children.md](children.md)
 {% endcontent-ref %}
-

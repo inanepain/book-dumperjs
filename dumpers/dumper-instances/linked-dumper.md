@@ -20,7 +20,7 @@ Linked dumpers are chained to the Dumper creating them if that Dumper is also a 
 * Child Cache:
   * Calling get on a Linked Dumper stores that child in its cache.
   * Repeated gets can be use to get that child. As a new child it **not** created, rather the existing one is returned.
-  * Linked dumpers have their own cache independant of other linked dumpers to names across linked dumpers are unique.
+  * Linked dumpers have their own cache independent of other linked dumpers to names across linked dumpers are unique.
 
 ## Example
 
@@ -31,7 +31,7 @@ cdump.debug('Building...'); // [ Car ] - Building...
 edump = cdump.get('Engine'); // Car -> Engine Dumper
 edump.warn('Temp: High!'); // [ Car - Engine ] - Temp: High!
 adump = edump.get('Alert', { level: 'WARN', bubbling: { listen: false} }); // new Linked that ignores chained level updates
-edump.get('Alert').optionBubbleFromParent; // false, can also be set 
+edump.get('Alert').optionBubbleFromParent; // false, can also be set
 
 edump.get('Alert') === adump; // true. get will return an cached dumper rather than create a new dumper.
 adump.warn('FIRE!!!'); // [ Car - Engine - Alert ] - FIRE!!!

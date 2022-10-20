@@ -11,7 +11,7 @@ description: Assert logging examples.
 #### Simple
 
 ```javascript
-// log an error if an object has an ivaid id (null).
+// log an error if an object has an invalid id (null).
 
 const id = playground.get('id');
 logger.assert(id, `invalid id: #{id}`);
@@ -22,7 +22,7 @@ logger.assert(id, `invalid id: #{id}`);
 Negative example: Do something if assertion test is true.
 
 ```javascript
-// log an error if an object has an ivaid id, asuming the id must be a number.
+// log an error if an object has an invalid id, assuming the id must be a number.
 // if the assertion takes place, fix the problem
 
 const id = playground.get('id');

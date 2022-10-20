@@ -16,7 +16,7 @@ Children start life inheriting their parent's options but by changing these you 
 
 Setting a level on a Dumper will bubble that level down through it's descendants. Each Dumper's [bubbling options](../../functions/option-methods/#level-bubbling) control how it reacts and if it will continue the propagation.
 
-Finally, the `children()` method can be used to see a Dumper's direct decedents.
+Finally, the `children()` method can be used to see a Dumper's direct decadents.
 
 ### Example
 
@@ -88,4 +88,3 @@ AF.log('Level', AF.level); // DEBUG: the change propagation was stopped by it's 
 ```
 {% endtab %}
 {% endtabs %}
-
