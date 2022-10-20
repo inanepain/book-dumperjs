@@ -42,6 +42,8 @@ Resets the value of the counter with the given label.
 
 ## group
 
+Works like `console.group`.
+
 ## profile
 
 ## table (and similar)
