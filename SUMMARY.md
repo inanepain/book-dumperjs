@@ -27,6 +27,13 @@
 * [Options](components/options.md)
 * [LogLevel](components/loglevel.md)
 
+## 📚 Examples
+
+* [Scenarios](examples/scenarios.md)
+* [Basic](examples/basic.md)
+* [Advanced](examples/advanced/README.md)
+  * [Database Logging](examples/advanced/database-logging.md)
+
 ## History
 
 * [Changelog](history/changelog.md)
