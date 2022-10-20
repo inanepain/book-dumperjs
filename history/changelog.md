@@ -4,6 +4,8 @@ description: Dumper's history
 
 # Changelog
 
+Also see the [todo](./todo.adoc).
+
 ### 2.4.3 (2022 Aug 16)
 
 * assert now works from Dumper class not just it's instances.
