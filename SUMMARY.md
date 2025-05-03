@@ -30,11 +30,11 @@
 ## 📚 Examples
 
 * [Scenarios](examples/scenarios.md)
-* [Basic](examples/basic.adoc)
+* [Basic](examples/basic.md)
 * [Advanced](examples/advanced/README.md)
   * [Database Logging](examples/advanced/database-logging.md)
 
 ## History
 
-* [TODO](history/todo.adoc)
+* [TODO](history/todo.md)
 * [Changelog](history/changelog.md)

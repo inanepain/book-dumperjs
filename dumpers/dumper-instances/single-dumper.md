@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-Single dumpers&#x20;
+Single dumpers
 
 A Single Dumper is created using the new key words on the Dumper class
 

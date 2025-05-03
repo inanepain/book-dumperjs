@@ -13,7 +13,7 @@ Linked dumpers are chained to the Dumper creating them if that Dumper is also a 
 ## Features
 
 * The name is print before its messages: `[ User ] - Message`
-* Child Dumpers inherit the name: `[ User - Auth ]`&#x20;
+* Child Dumpers inherit the name: `[ User - Auth ]`
 * Chained Levels: **a child can opt-out of chained effects but still hands them to its children.**
   * Global changes to LogLevel effect **ALL** Linked dumpers.
   * Changes to a linked dumper effects its child chain.

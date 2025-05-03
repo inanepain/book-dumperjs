@@ -34,7 +34,7 @@ This can be either:
 
 {% hint style="info" %}
 LogLevel changes bubble. What this means is that setting a Dumpers level will also set the level for all of it's dependents to match.\
-**@see** [Options.Bubbling](option-methods/#level-bubbling): Easy adjust the if/how/when of bubbling.
+&#xNAN;**@see** [Options.Bubbling](option-methods/#level-bubbling): Easy adjust the if/how/when of bubbling.
 {% endhint %}
 
 ## Example
