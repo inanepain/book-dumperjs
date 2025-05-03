@@ -4,7 +4,12 @@ description: Dumper's history
 
 # Changelog
 
-Also see the [todo](./todo.adoc).
+Also see the [todo](todo.adoc).
+
+### 2.5.0 (2025 May 03)
+
+* new: property `kids` which is just an alias for the `children()` method.
+* minor clean ups and optimisations.
 
 ### 2.4.3 (2022 Aug 16)
 

@@ -16,7 +16,7 @@ Children start life inheriting their parent's options but by changing these you 
 
 Setting a level on a Dumper will bubble that level down through it's descendants. Each Dumper's [bubbling options](../../functions/option-methods/#level-bubbling) control how it reacts and if it will continue the propagation.
 
-Finally, the `children()` method can be used to see a Dumper's direct decadents.
+Finally, the [`children()`](../../functions/methods-1.md#children) method can be used to see a Dumper's direct decadents.
 
 ### Example
 
@@ -55,8 +55,10 @@ logger.log('');
 
 // All the children have taken the new level
 logger.get('AreaA').log('Level', logger.get('AreaA').level);
-logger.get('AreaB').log('Level', logger.get('AreaB').level);
-logger.get('AreaC').log('Level', logger.get('AreaC').level);
+// note: for existing children you can use the `children()` method
+logger.children().AreaB.log('Level', logger.get('AreaB').level);
+// and, since *v2.5.0*, you can use the `kids` property.
+logger.kids.AreaC.log('Level', logger.get('AreaC').level);
 
 // Almost all
 logger.get('AreaD').log('Level', logger.get('AreaD').level); // DEBUG: change not allowed but propagated.

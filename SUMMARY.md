@@ -13,6 +13,7 @@
 
 ## Functionality <a href="#functions" id="functions"></a>
 
+* [Properties](functions/properties.md)
 * [Methods](functions/methods-1.md)
 * [Log Methods](functions/log-methods.md)
 * [Level Methods](functions/level-methods.md)

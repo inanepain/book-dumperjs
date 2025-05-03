@@ -13,7 +13,7 @@ Filters any log message with a level lower than the set level.
 This returns the current LogLevel of the Dumper
 
 {% hint style="info" %}
-Since [v2.1.0](../history/changelog.md#2-1-0-2021-jun-04): You can use the level property. e.g.: Dumper.level
+Since [v2.1.0](../history/changelog.md#2-1-0-2021-jun-04): You can use the level property. e.g.: [Dumper.level](properties.md#level)
 {% endhint %}
 
 ## setLevel(LogLevel)
@@ -21,7 +21,7 @@ Since [v2.1.0](../history/changelog.md#2-1-0-2021-jun-04): You can use the level
 Sets the current Dumper's LogLevel. Level changes bubble along child chains updating them as well. The stop&#x20;
 
 {% hint style="info" %}
-Since [v2.1.0](../history/changelog.md#2-1-0-2021-jun-04): You can use the level property. e.g.: Dumper.level=\`info\`
+Since [v2.1.0](../history/changelog.md#2-1-0-2021-jun-04): You can use the level property. e.g.: [Dumper.level](properties.md#level)=\`info\`
 {% endhint %}
 
 ### LogLevel
