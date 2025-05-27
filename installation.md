@@ -10,14 +10,19 @@ Use the link bellow to get the latest version of Dumper.
 
 **ESM:**
 
-{% embed url="https://git.inane.co.za:3000/Inane/inane-js/raw/master/dumper.js" %}
+To load `dumper.mjs`, include the following in your HTML:
 
-{% embed url="https://git.inane.co.za:3000/Inane/inane-js/raw/master/dumper.min.js" %}
+```html
+<script type="module" src="https://bitbucket.org/peepinane/dumperjs/raw/master/src/dumper.mjs"></script>
+```
+
+Make sure to replace any previous Dumper script links with the new module type for proper integration.
 
 **Script:**
 
 You use the same file. Simply add a `script` tag but set the **type** to **module**.
 
-```markup
-<script type="module" src="path/to/dumper.min.js"></script>
+```html
+<script src="https://bitbucket.org/peepinane/dumperjs/raw/master/src/dumper.js"></script>
 ```
+
